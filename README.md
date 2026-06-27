@@ -35,3 +35,28 @@ The clearer the ask, the better the demo. A title and a sentence or two of conte
 4. We review and merge — from CLI to PR, automated.
 
 Let's do it live. 🚀
+
+## Fetch open issues
+
+You can fetch all open issues from this repository and write them to a JSON file:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\fetch-open-issues.ps1
+```
+
+This writes `open-issues.json` in the repo root by default.
+
+## Todo app (React + TypeScript + Tailwind)
+
+A Todo app is now available in `todo-app/` with:
+- Create, edit, delete todos
+- Mark complete/incomplete
+- localStorage persistence
+
+Run it with:
+
+```powershell
+cd .\todo-app
+npm install
+npm run dev
+```
