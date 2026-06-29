@@ -82,6 +82,9 @@ function App() {
               </h1>
               <p className="mt-5 max-w-2xl text-base leading-7 text-slate-600 sm:text-lg">
                 A live-coding page for the stage: simple, visual, and built to explain the full path from a local edit to a merged pull request.
+                <span className="block mt-2 font-medium text-slate-700">
+                  Follow-up branch ready for a real PR and merge demo.
+                </span>
               </p>
             </header>
 
